@@ -9,7 +9,8 @@ headline and the black source strip no longer sit inside the hero pictures,
 so pictures 1-3 are 100% visible. The banner text now lives in the red tag
 line under each picture, and only the small stat badge stays in the picture,
 top right. The globe picture's thermometer moved down so the badge does not
-cover it."""
+cover it. Tag-line widths were measured after rendering: the longest one is
+296px against 313px available, so none of them wraps."""
 import os
 from PIL import Image, ImageDraw, ImageFont
 
